@@ -1,0 +1,25 @@
+#green{
+  color: #ccff33;
+
+}
+input.form-control,select,#in {
+  height: 70px; /* Increase height */
+  padding: 35px; /* Adjust padding */
+  border-radius: 5px;
+}
+.round-button {
+  width: 50px;
+  height: 50px;
+  background-color: #ccff33; /* Green */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Makes it round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.copyright::before {
+  content: "© ";
+}
